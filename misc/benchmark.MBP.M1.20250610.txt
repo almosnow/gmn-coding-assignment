@@ -1,0 +1,54 @@
+    **** 1M numbers ****
+
+               arrayFillA   [1M]                 30.00 ms         33,330,371 ops/s
+               arrayFillB   [1M]                 28.66 ms         34,887,473 ops/s
+               randomMath   [1M]                  6.80 ms        147,149,883 ops/s
+         randomMulberry32   [1M]                  5.88 ms        170,133,129 ops/s
+        randomXORshift128   [1M]                 14.74 ms         67,842,219 ops/s
+          arrayFillRandom   [1M]                 69.63 ms         14,360,913 ops/s
+     arrayFillIndexRandom   [1M]                 73.43 ms         13,618,914 ops/s
+             arrayShuffle   [1M]                 11.61 ms         86,145,629 ops/s
+                 AFB_x_AS   [1M]                 38.67 ms         25,856,608 ops/s
+           AFB_x_AS_x_OPT   [1M]                 10.58 ms         94,525,034 ops/s
+ AFB_x_AS_x_OPT_x_NO_INIT   [1M]                 17.91 ms         55,825,120 ops/s
+                arraySort   [1M]                209.39 ms          4,775,847 ops/s
+              AFIR_x_SORT   [1M]                567.82 ms          1,761,111 ops/s
+            arrayFillZero   [1M]                 27.56 ms         36,283,154 ops/s
+ BucketRadixShuffle (Mx1)   [1M]                 72.31 ms         13,830,199 ops/s
+ BucketRadixShuffle (Mx2)   [1M]                 69.90 ms         14,305,734 ops/s
+ BucketRadixShuffle (Mx4)   [1M]                 73.51 ms         13,604,478 ops/s
+
+    **** 10M numbers ****
+
+               arrayFillA  [10M]                301.63 ms         33,153,347 ops/s
+               arrayFillB  [10M]                273.99 ms         36,497,854 ops/s
+               randomMath  [10M]                 57.43 ms        174,136,771 ops/s
+         randomMulberry32  [10M]                 44.60 ms        224,237,454 ops/s
+        randomXORshift128  [10M]                139.74 ms         71,561,002 ops/s
+          arrayFillRandom  [10M]                553.20 ms         18,076,679 ops/s
+     arrayFillIndexRandom  [10M]                524.18 ms         19,077,392 ops/s
+             arrayShuffle  [10M]                292.71 ms         34,163,667 ops/s
+                 AFB_x_AS  [10M]                566.30 ms         17,658,559 ops/s
+           AFB_x_AS_x_OPT  [10M]                212.65 ms         47,026,053 ops/s
+ AFB_x_AS_x_OPT_x_NO_INIT  [10M]                363.11 ms         27,540,212 ops/s
+                arraySort  [10M]              2,390.70 ms          4,182,867 ops/s
+              AFIR_x_SORT  [10M]              8,899.57 ms          1,123,649 ops/s
+            arrayFillZero  [10M]                275.35 ms         36,318,052 ops/s
+ BucketRadixShuffle (Mx1)  [10M]              1,234.88 ms          8,097,981 ops/s
+ BucketRadixShuffle (Mx2)  [10M]                961.56 ms         10,399,761 ops/s
+ BucketRadixShuffle (Mx4)  [10M]              1,915.27 ms          5,221,208 ops/s
+
+    **** 100M numbers ****
+
+               arrayFillA [100M]              5,094.43 ms         19,629,286 ops/s
+               arrayFillB [100M]              6,739.18 ms         14,838,602 ops/s
+               randomMath [100M]                600.02 ms        166,660,741 ops/s
+         randomMulberry32 [100M]                486.11 ms        205,714,456 ops/s
+        randomXORshift128 [100M]              1,403.95 ms         71,227,802 ops/s
+          arrayFillRandom [100M]             11,747.20 ms          8,512,669 ops/s
+             arrayShuffle [100M]              4,838.23 ms         20,668,736 ops/s
+                 AFB_x_AS [100M]             10,850.39 ms          9,216,256 ops/s
+           AFB_x_AS_x_OPT [100M]              5,034.55 ms         19,862,753 ops/s
+ AFB_x_AS_x_OPT_x_NO_INIT [100M]              6,051.36 ms         16,525,217 ops/s
+                arraySort [100M]             29,109.09 ms          3,435,353 ops/s
+            arrayFillZero [100M]              5,685.03 ms         17,590,046 ops/s
